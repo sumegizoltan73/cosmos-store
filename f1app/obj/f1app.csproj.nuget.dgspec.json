@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sumegizoltan/github/_uj/f1app/f1app/f1app.csproj": {}
+    "/Users/sumegizoltan/github/_uj/cosmos-store/f1app/f1app.csproj": {}
   },
   "projects": {
-    "/Users/sumegizoltan/github/_uj/f1app/f1app/f1app.csproj": {
+    "/Users/sumegizoltan/github/_uj/cosmos-store/f1app/f1app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sumegizoltan/github/_uj/f1app/f1app/f1app.csproj",
+        "projectUniqueName": "/Users/sumegizoltan/github/_uj/cosmos-store/f1app/f1app.csproj",
         "projectName": "f1app",
-        "projectPath": "/Users/sumegizoltan/github/_uj/f1app/f1app/f1app.csproj",
+        "projectPath": "/Users/sumegizoltan/github/_uj/cosmos-store/f1app/f1app.csproj",
         "packagesPath": "/Users/sumegizoltan/.nuget/packages/",
-        "outputPath": "/Users/sumegizoltan/github/_uj/f1app/f1app/obj/",
+        "outputPath": "/Users/sumegizoltan/github/_uj/cosmos-store/f1app/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sumegizoltan/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.Azure.Cosmos": {
+              "target": "Package",
+              "version": "[3.45.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

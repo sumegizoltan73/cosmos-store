@@ -6,3 +6,5 @@ dotnet new webapi -controllers -n f1app
 
 ## related tutorial
 [Youtube - .NET 8 💥 - Create CRUD with Cosmos DB - Step by Step, Mohamad Lawand](https://www.youtube.com/watch?v=f4auD5MZdlk)
+
+From tutorial: dotnet add package Microsoft.Azure.Cosmos 
